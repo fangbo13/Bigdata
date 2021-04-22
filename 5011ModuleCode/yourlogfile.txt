@@ -1,0 +1,714 @@
+diary on
+ExploreData
+Data Dimension Names: nlon, nlat, ntim
+Variable names and sizes:
+1 chimere_ozone  700, 400, 25
+2 emep_ozone  700, 400, 25
+3 ensemble_ozone  700, 400, 25
+4 eurad_ozone  700, 400, 25
+5 lotoseuros_ozone  700, 400, 25
+6 match_ozone  700, 400, 25
+7 mocage_ozone  700, 400, 25
+8 silam_ozone  700, 400, 25
+9 lat  400, 
+10 lon  700, 
+11 hour  25, 
+Model 1 : chimere_ozone
+Model 2 : emep_ozone
+Model 4 : eurad_ozone
+Model 5 : lotoseuros_ozone
+Model 6 : match_ozone
+Model 7 : mocage_ozone
+Model 8 : silam_ozone
+diary 'E:/作业1/yourlogfile.txt'
+Auto_test
+Processing hour 1
+Creating segments....Segments created
+{函数或变量 'DDC_ver01_1_CAMS' 无法识别。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EnsembleValue', 'E:\作业1\5011ModuleCode-master\6a Testing Text\EnsembleValue.m', 8)" style="font-weight:bold">EnsembleValue</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\EnsembleValue.m',8,0)">第 8 行</a>)
+[Clusters, Results] = DDC_ver01_1_CAMS(Data4Cluster, [RadLat, RadLon, RadO3], 0, 0);
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Auto_test', 'E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m', 71)" style="font-weight:bold">Auto_test</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m',71,0)">第 71 行</a>)
+            [EnsembleVector(idx, NumHour)] = EnsembleValue(Data2Process(idx,:,:,:), LatLon, RadLat, RadLon, RadO3);
+} 
+PrepareData
+Creating segments....{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('PrepareData', 'E:\作业1\5011ModuleCode-master\3a Sequential\PrepareData.m', 19)" style="font-weight:bold">PrepareData</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\3a Sequential\PrepareData.m',19,0)">第 19 行</a>)
+           O3Data(:, idxLon-GeogSlice:idxLon+GeogSlice, idxLat-GeogSlice:idxLat+GeogSlice);
+} 
+EnsembleValue
+{输入参数的数目不足。
+
+出错 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EnsembleValue', 'E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m', 7)" style="font-weight:bold">EnsembleValue</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m',7,0)">第 7 行</a>)
+Data4Cluster = [Data(:),LatLon];
+} 
+Auto_test
+Processing hour 1
+Creating segments....Segments created
+Total 50 of 277804, last 50 in 1.11 s  predicted time for all data 154102.9 s
+Total 100 of 277804, last 50 in 0.64 s  predicted time for all data 89247.0 s
+Total 150 of 277804, last 50 in 0.66 s  predicted time for all data 91091.4 s
+Total 200 of 277804, last 50 in 0.50 s  predicted time for all data 70054.2 s
+Total 250 of 277804, last 50 in 0.49 s  predicted time for all data 68185.9 s
+Total 300 of 277804, last 50 in 0.47 s  predicted time for all data 65330.9 s
+Total 350 of 277804, last 50 in 0.50 s  predicted time for all data 68857.0 s
+Total 400 of 277804, last 50 in 0.49 s  predicted time for all data 67845.3 s
+Total 450 of 277804, last 50 in 0.47 s  predicted time for all data 64885.6 s
+Total 500 of 277804, last 50 in 0.49 s  predicted time for all data 68085.4 s
+Total 550 of 277804, last 50 in 0.50 s  predicted time for all data 69288.2 s
+Total 600 of 277804, last 50 in 0.47 s  predicted time for all data 65589.2 s
+Total 650 of 277804, last 50 in 0.50 s  predicted time for all data 69162.3 s
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DDC_ver01_1_CAMS', 'E:\作业1\5011ModuleCode-master\6a Testing Text\project\DDC_ver01_1_CAMS.m', 96)" style="font-weight:bold">DDC_ver01_1_CAMS</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\project\DDC_ver01_1_CAMS.m',96,0)">第 96 行</a>)
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EnsembleValue', 'E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m', 8)" style="font-weight:bold">EnsembleValue</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m',8,0)">第 8 行</a>)
+[Clusters, Results] = DDC_ver01_1_CAMS(Data4Cluster, [RadLat, RadLon, RadO3], 0, 0);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Auto_test', 'E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m', 71)" style="font-weight:bold">Auto_test</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m',71,0)">第 71 行</a>)
+            [EnsembleVector(idx, NumHour)] = EnsembleValue(Data2Process(idx,:,:,:), LatLon, RadLat, RadLon, RadO3);
+} 
+clc
+Auto_test
+Processing hour 1
+Creating segments....Segments created
+Total 50 of 277804, last 50 in 0.81 s  predicted time for all data 112344.0 s
+Total 100 of 277804, last 50 in 0.74 s  predicted time for all data 102208.1 s
+Total 150 of 277804, last 50 in 0.68 s  predicted time for all data 94906.9 s
+Total 200 of 277804, last 50 in 0.49 s  predicted time for all data 67594.2 s
+Total 250 of 277804, last 50 in 0.52 s  predicted time for all data 72396.2 s
+Total 300 of 277804, last 50 in 0.47 s  predicted time for all data 64962.7 s
+Total 350 of 277804, last 50 in 0.50 s  predicted time for all data 70122.6 s
+Total 400 of 277804, last 50 in 0.46 s  predicted time for all data 64033.9 s
+Total 450 of 277804, last 50 in 0.49 s  predicted time for all data 68098.2 s
+Total 500 of 277804, last 50 in 0.48 s  predicted time for all data 66934.5 s
+Total 550 of 277804, last 50 in 0.47 s  predicted time for all data 64955.9 s
+Total 600 of 277804, last 50 in 0.47 s  predicted time for all data 65404.0 s
+Total 650 of 277804, last 50 in 0.48 s  predicted time for all data 66518.1 s
+Total 700 of 277804, last 50 in 0.49 s  predicted time for all data 67727.7 s
+Total 750 of 277804, last 50 in 0.46 s  predicted time for all data 64328.0 s
+Total 800 of 277804, last 50 in 0.58 s  predicted time for all data 80787.1 s
+Total 850 of 277804, last 50 in 0.78 s  predicted time for all data 108799.0 s
+Total 900 of 277804, last 50 in 0.82 s  predicted time for all data 113532.7 s
+Total 950 of 277804, last 50 in 0.76 s  predicted time for all data 104992.3 s
+Total 1000 of 277804, last 50 in 0.81 s  predicted time for all data 111888.5 s
+Total 1050 of 277804, last 50 in 0.89 s  predicted time for all data 124123.6 s
+Total 1100 of 277804, last 50 in 0.76 s  predicted time for all data 105654.6 s
+Total 1150 of 277804, last 50 in 0.76 s  predicted time for all data 105458.0 s
+Total 1200 of 277804, last 50 in 0.71 s  predicted time for all data 98859.0 s
+Total 1250 of 277804, last 50 in 0.76 s  predicted time for all data 104985.5 s
+Total 1300 of 277804, last 50 in 0.71 s  predicted time for all data 98100.1 s
+Total 1350 of 277804, last 50 in 0.74 s  predicted time for all data 103459.2 s
+Total 1400 of 277804, last 50 in 0.78 s  predicted time for all data 108718.6 s
+Total 1450 of 277804, last 50 in 0.76 s  predicted time for all data 105445.4 s
+Total 1500 of 277804, last 50 in 0.75 s  predicted time for all data 103517.3 s
+Total 1550 of 277804, last 50 in 0.78 s  predicted time for all data 107708.5 s
+Total 1600 of 277804, last 50 in 0.77 s  predicted time for all data 106509.0 s
+Total 1650 of 277804, last 50 in 0.80 s  predicted time for all data 110658.1 s
+Total 1700 of 277804, last 50 in 0.70 s  predicted time for all data 96712.3 s
+Total 1750 of 277804, last 50 in 0.71 s  predicted time for all data 98710.0 s
+Total 1800 of 277804, last 50 in 0.72 s  predicted time for all data 99324.0 s
+Total 1850 of 277804, last 50 in 0.91 s  predicted time for all data 126724.5 s
+Total 1900 of 277804, last 50 in 0.81 s  predicted time for all data 113119.2 s
+Total 1950 of 277804, last 50 in 0.77 s  predicted time for all data 106793.8 s
+Total 2000 of 277804, last 50 in 0.80 s  predicted time for all data 110801.6 s
+Total 2050 of 277804, last 50 in 0.73 s  predicted time for all data 101445.5 s
+Total 2100 of 277804, last 50 in 0.73 s  predicted time for all data 100851.4 s
+Total 2150 of 277804, last 50 in 0.75 s  predicted time for all data 103788.0 s
+Total 2200 of 277804, last 50 in 0.75 s  predicted time for all data 104729.5 s
+Total 2250 of 277804, last 50 in 0.83 s  predicted time for all data 114742.1 s
+Total 2300 of 277804, last 50 in 0.82 s  predicted time for all data 113283.7 s
+Total 2350 of 277804, last 50 in 0.88 s  predicted time for all data 121709.9 s
+Total 2400 of 277804, last 50 in 0.85 s  predicted time for all data 118314.0 s
+Total 2450 of 277804, last 50 in 0.75 s  predicted time for all data 103522.0 s
+Total 2500 of 277804, last 50 in 0.75 s  predicted time for all data 103959.0 s
+Total 2550 of 277804, last 50 in 0.76 s  predicted time for all data 104925.0 s
+Total 2600 of 277804, last 50 in 0.75 s  predicted time for all data 104734.6 s
+Total 2650 of 277804, last 50 in 0.76 s  predicted time for all data 105415.2 s
+Total 2700 of 277804, last 50 in 0.77 s  predicted time for all data 106634.6 s
+Total 2750 of 277804, last 50 in 0.79 s  predicted time for all data 110299.2 s
+Total 2800 of 277804, last 50 in 0.77 s  predicted time for all data 106815.9 s
+Total 2850 of 277804, last 50 in 0.77 s  predicted time for all data 107060.7 s
+Total 2900 of 277804, last 50 in 0.76 s  predicted time for all data 105378.8 s
+Total 2950 of 277804, last 50 in 0.75 s  predicted time for all data 103644.2 s
+Total 3000 of 277804, last 50 in 0.78 s  predicted time for all data 108424.7 s
+Total 3050 of 277804, last 50 in 0.79 s  predicted time for all data 109544.4 s
+Total 3100 of 277804, last 50 in 0.78 s  predicted time for all data 108196.4 s
+Total 3150 of 277804, last 50 in 0.76 s  predicted time for all data 104902.5 s
+Total 3200 of 277804, last 50 in 0.72 s  predicted time for all data 100480.2 s
+Total 3250 of 277804, last 50 in 0.76 s  predicted time for all data 105434.0 s
+Total 3300 of 277804, last 50 in 0.74 s  predicted time for all data 102622.3 s
+Total 3350 of 277804, last 50 in 0.77 s  predicted time for all data 106691.6 s
+Total 3400 of 277804, last 50 in 0.77 s  predicted time for all data 106398.0 s
+Total 3450 of 277804, last 50 in 0.78 s  predicted time for all data 108711.4 s
+Total 3500 of 277804, last 50 in 0.77 s  predicted time for all data 107348.7 s
+Total 3550 of 277804, last 50 in 0.78 s  predicted time for all data 108776.5 s
+Total 3600 of 277804, last 50 in 0.71 s  predicted time for all data 98438.4 s
+Total 3650 of 277804, last 50 in 0.75 s  predicted time for all data 103610.2 s
+Total 3700 of 277804, last 50 in 0.75 s  predicted time for all data 104337.5 s
+Total 3750 of 277804, last 50 in 0.76 s  predicted time for all data 105657.8 s
+Total 3800 of 277804, last 50 in 0.81 s  predicted time for all data 112781.4 s
+Total 3850 of 277804, last 50 in 0.81 s  predicted time for all data 112518.0 s
+Total 3900 of 277804, last 50 in 0.76 s  predicted time for all data 105469.3 s
+Total 3950 of 277804, last 50 in 0.78 s  predicted time for all data 107742.7 s
+Total 4000 of 277804, last 50 in 0.72 s  predicted time for all data 99948.4 s
+Total 4050 of 277804, last 50 in 0.74 s  predicted time for all data 102854.1 s
+Total 4100 of 277804, last 50 in 0.76 s  predicted time for all data 105820.1 s
+Total 4150 of 277804, last 50 in 0.74 s  predicted time for all data 103171.8 s
+Total 4200 of 277804, last 50 in 0.74 s  predicted time for all data 102802.9 s
+Total 4250 of 277804, last 50 in 0.80 s  predicted time for all data 110578.0 s
+Total 4300 of 277804, last 50 in 0.78 s  predicted time for all data 108641.1 s
+Total 4350 of 277804, last 50 in 0.78 s  predicted time for all data 108173.6 s
+Total 4400 of 277804, last 50 in 0.70 s  predicted time for all data 97687.0 s
+Total 4450 of 277804, last 50 in 0.74 s  predicted time for all data 103321.8 s
+Total 4500 of 277804, last 50 in 0.73 s  predicted time for all data 101976.8 s
+Total 4550 of 277804, last 50 in 0.74 s  predicted time for all data 102919.1 s
+Total 4600 of 277804, last 50 in 0.79 s  predicted time for all data 109355.6 s
+Total 4650 of 277804, last 50 in 0.76 s  predicted time for all data 105183.8 s
+Total 4700 of 277804, last 50 in 0.78 s  predicted time for all data 108256.5 s
+Total 4750 of 277804, last 50 in 0.77 s  predicted time for all data 107337.7 s
+Total 4800 of 277804, last 50 in 0.78 s  predicted time for all data 108201.9 s
+Total 4850 of 277804, last 50 in 0.78 s  predicted time for all data 108282.4 s
+Total 4900 of 277804, last 50 in 0.72 s  predicted time for all data 100296.4 s
+Total 4950 of 277804, last 50 in 0.76 s  predicted time for all data 105927.1 s
+Total 5000 of 277804, last 50 in 0.77 s  predicted time for all data 107026.7 s
+Total 5050 of 277804, last 50 in 0.78 s  predicted time for all data 107887.4 s
+Total 5100 of 277804, last 50 in 0.81 s  predicted time for all data 112051.8 s
+Total 5150 of 277804, last 50 in 0.78 s  predicted time for all data 108672.4 s
+Total 5200 of 277804, last 50 in 0.81 s  predicted time for all data 112100.8 s
+Total 5250 of 277804, last 50 in 0.90 s  predicted time for all data 124586.4 s
+Total 5300 of 277804, last 50 in 2.52 s  predicted time for all data 350190.3 s
+Total 5350 of 277804, last 50 in 2.37 s  predicted time for all data 328808.9 s
+Total 5400 of 277804, last 50 in 2.42 s  predicted time for all data 336027.1 s
+Total 5450 of 277804, last 50 in 3.09 s  predicted time for all data 429092.7 s
+Total 5500 of 277804, last 50 in 3.06 s  predicted time for all data 425722.7 s
+Total 5550 of 277804, last 50 in 3.10 s  predicted time for all data 430025.2 s
+Total 5600 of 277804, last 50 in 2.39 s  predicted time for all data 332021.9 s
+Total 5650 of 277804, last 50 in 0.75 s  predicted time for all data 103890.4 s
+Total 5700 of 277804, last 50 in 0.67 s  predicted time for all data 93514.5 s
+Total 5750 of 277804, last 50 in 0.71 s  predicted time for all data 98328.2 s
+Total 5800 of 277804, last 50 in 0.75 s  predicted time for all data 103496.1 s
+Total 5850 of 277804, last 50 in 0.74 s  predicted time for all data 102230.0 s
+Total 5900 of 277804, last 50 in 0.82 s  predicted time for all data 113719.1 s
+Total 5950 of 277804, last 50 in 0.72 s  predicted time for all data 99508.2 s
+Total 6000 of 277804, last 50 in 0.69 s  predicted time for all data 95849.6 s
+Total 6050 of 277804, last 50 in 1.19 s  predicted time for all data 165480.5 s
+Total 6100 of 277804, last 50 in 2.75 s  predicted time for all data 381988.6 s
+Total 6150 of 277804, last 50 in 2.89 s  predicted time for all data 401303.6 s
+Total 6200 of 277804, last 50 in 2.99 s  predicted time for all data 415955.6 s
+Total 6250 of 277804, last 50 in 3.12 s  predicted time for all data 433051.4 s
+Total 6300 of 277804, last 50 in 2.92 s  predicted time for all data 405622.0 s
+Total 6350 of 277804, last 50 in 3.04 s  predicted time for all data 421724.9 s
+Total 6400 of 277804, last 50 in 2.73 s  predicted time for all data 379360.2 s
+Total 6450 of 277804, last 50 in 3.00 s  predicted time for all data 416685.4 s
+Total 6500 of 277804, last 50 in 2.93 s  predicted time for all data 406600.6 s
+Total 6550 of 277804, last 50 in 2.78 s  predicted time for all data 386403.6 s
+Total 6600 of 277804, last 50 in 2.79 s  predicted time for all data 387653.8 s
+Total 6650 of 277804, last 50 in 2.89 s  predicted time for all data 402038.5 s
+Total 6700 of 277804, last 50 in 2.92 s  predicted time for all data 405246.2 s
+Total 6750 of 277804, last 50 in 2.62 s  predicted time for all data 363429.2 s
+Total 6800 of 277804, last 50 in 2.89 s  predicted time for all data 401021.0 s
+Total 6850 of 277804, last 50 in 3.01 s  predicted time for all data 418286.3 s
+Total 6900 of 277804, last 50 in 2.96 s  predicted time for all data 410545.3 s
+Total 6950 of 277804, last 50 in 2.98 s  predicted time for all data 414562.3 s
+Total 7000 of 277804, last 50 in 2.96 s  predicted time for all data 410728.5 s
+Total 7050 of 277804, last 50 in 3.10 s  predicted time for all data 430226.2 s
+Total 7100 of 277804, last 50 in 2.94 s  predicted time for all data 408277.9 s
+Total 7150 of 277804, last 50 in 2.90 s  predicted time for all data 402142.6 s
+Total 7200 of 277804, last 50 in 2.71 s  predicted time for all data 377109.9 s
+Total 7250 of 277804, last 50 in 2.92 s  predicted time for all data 405501.7 s
+Total 7300 of 277804, last 50 in 2.84 s  predicted time for all data 394688.8 s
+Total 7350 of 277804, last 50 in 2.80 s  predicted time for all data 389051.2 s
+Total 7400 of 277804, last 50 in 3.08 s  predicted time for all data 427703.0 s
+Total 7450 of 277804, last 50 in 3.11 s  predicted time for all data 431406.5 s
+Total 7500 of 277804, last 50 in 3.09 s  predicted time for all data 429130.4 s
+Total 7550 of 277804, last 50 in 1.38 s  predicted time for all data 191104.2 s
+Total 7600 of 277804, last 50 in 0.68 s  predicted time for all data 94869.1 s
+Total 7650 of 277804, last 50 in 0.74 s  predicted time for all data 103236.1 s
+Total 7700 of 277804, last 50 in 0.75 s  predicted time for all data 103918.5 s
+Total 7750 of 277804, last 50 in 0.76 s  predicted time for all data 104901.0 s
+Total 7800 of 277804, last 50 in 0.79 s  predicted time for all data 110034.7 s
+Total 7850 of 277804, last 50 in 0.79 s  predicted time for all data 109928.1 s
+Total 7900 of 277804, last 50 in 0.71 s  predicted time for all data 98923.4 s
+Total 7950 of 277804, last 50 in 0.72 s  predicted time for all data 100026.4 s
+Total 8000 of 277804, last 50 in 0.70 s  predicted time for all data 97556.8 s
+Total 8050 of 277804, last 50 in 0.75 s  predicted time for all data 103531.5 s
+Total 8100 of 277804, last 50 in 1.17 s  predicted time for all data 162915.4 s
+Total 8150 of 277804, last 50 in 0.83 s  predicted time for all data 115686.1 s
+Total 8200 of 277804, last 50 in 0.81 s  predicted time for all data 113145.7 s
+Total 8250 of 277804, last 50 in 0.78 s  predicted time for all data 107989.7 s
+Total 8300 of 277804, last 50 in 0.82 s  predicted time for all data 113772.9 s
+Total 8350 of 277804, last 50 in 0.86 s  predicted time for all data 119577.6 s
+Total 8400 of 277804, last 50 in 0.73 s  predicted time for all data 101475.9 s
+Total 8450 of 277804, last 50 in 0.78 s  predicted time for all data 107852.2 s
+Total 8500 of 277804, last 50 in 1.01 s  predicted time for all data 140694.2 s
+Total 8550 of 277804, last 50 in 0.80 s  predicted time for all data 110706.4 s
+Total 8600 of 277804, last 50 in 0.79 s  predicted time for all data 109785.9 s
+Total 8650 of 277804, last 50 in 0.86 s  predicted time for all data 119169.4 s
+Total 8700 of 277804, last 50 in 0.76 s  predicted time for all data 105612.0 s
+Total 8750 of 277804, last 50 in 0.77 s  predicted time for all data 106510.3 s
+Total 8800 of 277804, last 50 in 0.70 s  predicted time for all data 97418.6 s
+Total 8850 of 277804, last 50 in 0.73 s  predicted time for all data 101365.5 s
+Total 8900 of 277804, last 50 in 0.80 s  predicted time for all data 111057.5 s
+Total 8950 of 277804, last 50 in 0.80 s  predicted time for all data 110496.7 s
+Total 9000 of 277804, last 50 in 0.79 s  predicted time for all data 110256.3 s
+Total 9050 of 277804, last 50 in 0.73 s  predicted time for all data 101799.2 s
+Total 9100 of 277804, last 50 in 0.76 s  predicted time for all data 105474.1 s
+Total 9150 of 277804, last 50 in 0.72 s  predicted time for all data 99461.2 s
+Total 9200 of 277804, last 50 in 0.78 s  predicted time for all data 108879.5 s
+Total 9250 of 277804, last 50 in 0.86 s  predicted time for all data 119043.1 s
+Total 9300 of 277804, last 50 in 1.05 s  predicted time for all data 146354.1 s
+Total 9350 of 277804, last 50 in 0.75 s  predicted time for all data 104157.4 s
+Total 9400 of 277804, last 50 in 0.82 s  predicted time for all data 114352.5 s
+Total 9450 of 277804, last 50 in 0.86 s  predicted time for all data 119111.4 s
+Total 9500 of 277804, last 50 in 0.78 s  predicted time for all data 108993.5 s
+Total 9550 of 277804, last 50 in 0.82 s  predicted time for all data 113312.1 s
+Total 9600 of 277804, last 50 in 0.80 s  predicted time for all data 110939.1 s
+Total 9650 of 277804, last 50 in 0.92 s  predicted time for all data 127658.8 s
+Total 9700 of 277804, last 50 in 0.75 s  predicted time for all data 104363.6 s
+Total 9750 of 277804, last 50 in 0.79 s  predicted time for all data 109202.9 s
+Total 9800 of 277804, last 50 in 0.99 s  predicted time for all data 138146.4 s
+Total 9850 of 277804, last 50 in 0.99 s  predicted time for all data 138056.9 s
+Total 9900 of 277804, last 50 in 0.85 s  predicted time for all data 117521.2 s
+Total 9950 of 277804, last 50 in 0.82 s  predicted time for all data 113947.6 s
+Total 10000 of 277804, last 50 in 0.78 s  predicted time for all data 108958.0 s
+Total 10050 of 277804, last 50 in 0.79 s  predicted time for all data 109067.8 s
+Total 10100 of 277804, last 50 in 1.16 s  predicted time for all data 161398.6 s
+Total 10150 of 277804, last 50 in 1.05 s  predicted time for all data 146173.1 s
+Total 10200 of 277804, last 50 in 0.85 s  predicted time for all data 117766.9 s
+Total 10250 of 277804, last 50 in 0.78 s  predicted time for all data 108149.8 s
+Total 10300 of 277804, last 50 in 0.81 s  predicted time for all data 112186.3 s
+Total 10350 of 277804, last 50 in 0.75 s  predicted time for all data 103718.3 s
+Total 10400 of 277804, last 50 in 0.80 s  predicted time for all data 110781.6 s
+Total 10450 of 277804, last 50 in 0.79 s  predicted time for all data 110033.6 s
+Total 10500 of 277804, last 50 in 0.79 s  predicted time for all data 109544.3 s
+Total 10550 of 277804, last 50 in 0.80 s  predicted time for all data 110698.3 s
+Total 10600 of 277804, last 50 in 0.83 s  predicted time for all data 115099.3 s
+Total 10650 of 277804, last 50 in 0.78 s  predicted time for all data 107902.6 s
+Total 10700 of 277804, last 50 in 0.83 s  predicted time for all data 114899.2 s
+Total 10750 of 277804, last 50 in 0.71 s  predicted time for all data 99189.3 s
+Total 10800 of 277804, last 50 in 0.86 s  predicted time for all data 119409.0 s
+Total 10850 of 277804, last 50 in 0.75 s  predicted time for all data 104520.3 s
+Total 10900 of 277804, last 50 in 0.74 s  predicted time for all data 102498.7 s
+Total 10950 of 277804, last 50 in 0.76 s  predicted time for all data 105531.9 s
+Total 11000 of 277804, last 50 in 0.77 s  predicted time for all data 107312.3 s
+Total 11050 of 277804, last 50 in 0.84 s  predicted time for all data 116966.9 s
+Total 11100 of 277804, last 50 in 0.84 s  predicted time for all data 116918.3 s
+Total 11150 of 277804, last 50 in 0.82 s  predicted time for all data 113339.8 s
+Total 11200 of 277804, last 50 in 0.93 s  predicted time for all data 128681.5 s
+Total 11250 of 277804, last 50 in 1.58 s  predicted time for all data 219048.3 s
+Total 11300 of 277804, last 50 in 3.08 s  predicted time for all data 427282.4 s
+Total 11350 of 277804, last 50 in 3.27 s  predicted time for all data 453851.2 s
+Total 11400 of 277804, last 50 in 3.14 s  predicted time for all data 436522.9 s
+Total 11450 of 277804, last 50 in 3.06 s  predicted time for all data 425426.7 s
+Total 11500 of 277804, last 50 in 3.20 s  predicted time for all data 443829.4 s
+Total 11550 of 277804, last 50 in 3.01 s  predicted time for all data 418509.3 s
+Total 11600 of 277804, last 50 in 3.19 s  predicted time for all data 443077.6 s
+Total 11650 of 277804, last 50 in 3.58 s  predicted time for all data 497113.4 s
+Total 11700 of 277804, last 50 in 3.11 s  predicted time for all data 432411.3 s
+Total 11750 of 277804, last 50 in 1.70 s  predicted time for all data 236663.9 s
+Total 11800 of 277804, last 50 in 1.02 s  predicted time for all data 141385.4 s
+Total 11850 of 277804, last 50 in 1.02 s  predicted time for all data 142037.2 s
+Total 11900 of 277804, last 50 in 1.19 s  predicted time for all data 165906.0 s
+Total 11950 of 277804, last 50 in 1.24 s  predicted time for all data 171777.0 s
+Total 12000 of 277804, last 50 in 1.21 s  predicted time for all data 167979.7 s
+Total 12050 of 277804, last 50 in 1.12 s  predicted time for all data 156055.3 s
+Total 12100 of 277804, last 50 in 1.04 s  predicted time for all data 144178.7 s
+Total 12150 of 277804, last 50 in 2.58 s  predicted time for all data 358608.0 s
+Total 12200 of 277804, last 50 in 3.34 s  predicted time for all data 463857.1 s
+Total 12250 of 277804, last 50 in 3.62 s  predicted time for all data 503362.7 s
+Total 12300 of 277804, last 50 in 3.09 s  predicted time for all data 429806.4 s
+Total 12350 of 277804, last 50 in 2.86 s  predicted time for all data 396880.8 s
+Total 12400 of 277804, last 50 in 3.02 s  predicted time for all data 419536.5 s
+Total 12450 of 277804, last 50 in 1.24 s  predicted time for all data 172063.0 s
+Total 12500 of 277804, last 50 in 0.99 s  predicted time for all data 138061.8 s
+Total 12550 of 277804, last 50 in 1.08 s  predicted time for all data 149995.2 s
+Total 12600 of 277804, last 50 in 1.14 s  predicted time for all data 157699.2 s
+Total 12650 of 277804, last 50 in 1.00 s  predicted time for all data 138883.7 s
+Total 12700 of 277804, last 50 in 1.17 s  predicted time for all data 163025.9 s
+Total 12750 of 277804, last 50 in 0.96 s  predicted time for all data 133827.4 s
+Total 12800 of 277804, last 50 in 1.01 s  predicted time for all data 139641.0 s
+Total 12850 of 277804, last 50 in 1.00 s  predicted time for all data 138925.1 s
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pdist2', 'D:\matlab\toolbox\stats\stats\pdist2.m', 229)" style="font-weight:bold">pdist2</a> (<a href="matlab: opentoline('D:\matlab\toolbox\stats\stats\pdist2.m',229,0)">第 229 行</a>)
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DDC_ver01_1_CAMS', 'E:\作业1\5011ModuleCode-master\6a Testing Text\project\DDC_ver01_1_CAMS.m', 110)" style="font-weight:bold">DDC_ver01_1_CAMS</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\project\DDC_ver01_1_CAMS.m',110,0)">第 110 行</a>)
+        value01=pdist2(DataIn(Include,idx),Clusters.Centre(NumClusters,idx),'Euclidean');
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EnsembleValue', 'E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m', 8)" style="font-weight:bold">EnsembleValue</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\project\EnsembleValue.m',8,0)">第 8 行</a>)
+[Clusters, Results] = DDC_ver01_1_CAMS(Data4Cluster, [RadLat, RadLon, RadO3], 0, 0);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Auto_test', 'E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m', 71)" style="font-weight:bold">Auto_test</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m',71,0)">第 71 行</a>)
+            [EnsembleVector(idx, NumHour)] = EnsembleValue(Data2Process(idx,:,:,:), LatLon, RadLat, RadLon, RadO3);
+} 
+diary off
+Processing hour 1
+Creating segments....Segments created
+Total 50 of 277804, last 50 in 0.99 s  predicted time for all data 137274.3 s
+Total 100 of 277804, last 50 in 0.66 s  predicted time for all data 91577.9 s
+Total 150 of 277804, last 50 in 0.63 s  predicted time for all data 86976.3 s
+Total 200 of 277804, last 50 in 0.55 s  predicted time for all data 76190.3 s
+Total 250 of 277804, last 50 in 0.47 s  predicted time for all data 65329.0 s
+Total 300 of 277804, last 50 in 0.50 s  predicted time for all data 68937.0 s
+Total 350 of 277804, last 50 in 0.48 s  predicted time for all data 67239.9 s
+Total 400 of 277804, last 50 in 0.49 s  predicted time for all data 68629.7 s
+Total 450 of 277804, last 50 in 0.49 s  predicted time for all data 68623.3 s
+Total 500 of 277804, last 50 in 0.52 s  predicted time for all data 72470.9 s
+Total 550 of 277804, last 50 in 1.06 s  predicted time for all data 147583.2 s
+Total 600 of 277804, last 50 in 1.99 s  predicted time for all data 276936.0 s
+Total 650 of 277804, last 50 in 2.15 s  predicted time for all data 298973.5 s
+Total 700 of 277804, last 50 in 2.21 s  predicted time for all data 307392.9 s
+Total 750 of 277804, last 50 in 2.18 s  predicted time for all data 303330.1 s
+Total 800 of 277804, last 50 in 2.32 s  predicted time for all data 322256.8 s
+Total 850 of 277804, last 50 in 2.95 s  predicted time for all data 409524.4 s
+Total 900 of 277804, last 50 in 2.95 s  predicted time for all data 410413.6 s
+Total 950 of 277804, last 50 in 2.95 s  predicted time for all data 410010.5 s
+Total 1000 of 277804, last 50 in 3.08 s  predicted time for all data 428267.4 s
+Total 1050 of 277804, last 50 in 3.00 s  predicted time for all data 416529.4 s
+Total 1100 of 277804, last 50 in 3.10 s  predicted time for all data 431176.9 s
+Total 1150 of 277804, last 50 in 3.11 s  predicted time for all data 431329.2 s
+Total 1200 of 277804, last 50 in 3.06 s  predicted time for all data 425282.4 s
+Total 1250 of 277804, last 50 in 2.99 s  predicted time for all data 414999.2 s
+Total 1300 of 277804, last 50 in 2.98 s  predicted time for all data 414259.1 s
+Total 1350 of 277804, last 50 in 2.96 s  predicted time for all data 411710.3 s
+Total 1400 of 277804, last 50 in 3.13 s  predicted time for all data 435042.4 s
+Total 1450 of 277804, last 50 in 3.05 s  predicted time for all data 424072.0 s
+Total 1500 of 277804, last 50 in 3.17 s  predicted time for all data 439959.0 s
+Total 1550 of 277804, last 50 in 3.05 s  predicted time for all data 423140.1 s
+Total 1600 of 277804, last 50 in 3.26 s  predicted time for all data 452668.1 s
+Total 1650 of 277804, last 50 in 2.42 s  predicted time for all data 335547.7 s
+Total 1700 of 277804, last 50 in 2.91 s  predicted time for all data 403539.8 s
+Total 1750 of 277804, last 50 in 2.76 s  predicted time for all data 382796.9 s
+Total 1800 of 277804, last 50 in 2.43 s  predicted time for all data 337705.3 s
+Total 1850 of 277804, last 50 in 2.69 s  predicted time for all data 373282.8 s
+Total 1900 of 277804, last 50 in 2.31 s  predicted time for all data 321494.3 s
+Total 1950 of 277804, last 50 in 2.61 s  predicted time for all data 362267.3 s
+Total 2000 of 277804, last 50 in 2.25 s  predicted time for all data 312798.0 s
+Total 2050 of 277804, last 50 in 2.91 s  predicted time for all data 404451.8 s
+Total 2100 of 277804, last 50 in 2.86 s  predicted time for all data 397836.3 s
+Total 2150 of 277804, last 50 in 2.56 s  predicted time for all data 355424.8 s
+Total 2200 of 277804, last 50 in 3.08 s  predicted time for all data 427926.4 s
+Total 2250 of 277804, last 50 in 3.25 s  predicted time for all data 450865.8 s
+Total 2300 of 277804, last 50 in 3.39 s  predicted time for all data 470844.0 s
+Total 2350 of 277804, last 50 in 2.99 s  predicted time for all data 415231.9 s
+Total 2400 of 277804, last 50 in 2.99 s  predicted time for all data 415524.5 s
+Total 2450 of 277804, last 50 in 3.09 s  predicted time for all data 428681.4 s
+Total 2500 of 277804, last 50 in 3.08 s  predicted time for all data 428039.4 s
+Total 2550 of 277804, last 50 in 2.77 s  predicted time for all data 384205.3 s
+Total 2600 of 277804, last 50 in 3.12 s  predicted time for all data 433327.9 s
+Total 2650 of 277804, last 50 in 3.15 s  predicted time for all data 437468.4 s
+Total 2700 of 277804, last 50 in 3.30 s  predicted time for all data 458913.1 s
+Total 2750 of 277804, last 50 in 3.06 s  predicted time for all data 425615.8 s
+Total 2800 of 277804, last 50 in 2.71 s  predicted time for all data 376893.5 s
+Total 2850 of 277804, last 50 in 2.77 s  predicted time for all data 384265.3 s
+Total 2900 of 277804, last 50 in 2.93 s  predicted time for all data 407042.0 s
+Total 2950 of 277804, last 50 in 2.88 s  predicted time for all data 400161.3 s
+Total 3000 of 277804, last 50 in 2.90 s  predicted time for all data 403174.0 s
+Total 3050 of 277804, last 50 in 2.96 s  predicted time for all data 410946.3 s
+Total 3100 of 277804, last 50 in 2.85 s  predicted time for all data 395573.2 s
+Total 3150 of 277804, last 50 in 3.00 s  predicted time for all data 417398.3 s
+Total 3200 of 277804, last 50 in 2.69 s  predicted time for all data 374069.6 s
+Total 3250 of 277804, last 50 in 3.15 s  predicted time for all data 437205.1 s
+Total 3300 of 277804, last 50 in 3.04 s  predicted time for all data 422043.8 s
+Total 3350 of 277804, last 50 in 2.52 s  predicted time for all data 349870.5 s
+Total 3400 of 277804, last 50 in 3.14 s  predicted time for all data 435803.6 s
+Total 3450 of 277804, last 50 in 3.06 s  predicted time for all data 425627.7 s
+Total 3500 of 277804, last 50 in 3.08 s  predicted time for all data 428358.7 s
+Total 3550 of 277804, last 50 in 2.83 s  predicted time for all data 392475.2 s
+Total 3600 of 277804, last 50 in 2.39 s  predicted time for all data 331300.9 s
+Total 3650 of 277804, last 50 in 3.04 s  predicted time for all data 422807.6 s
+Total 3700 of 277804, last 50 in 2.97 s  predicted time for all data 412761.2 s
+Total 3750 of 277804, last 50 in 1.54 s  predicted time for all data 213744.6 s
+Total 3800 of 277804, last 50 in 0.75 s  predicted time for all data 103550.9 s
+Total 3850 of 277804, last 50 in 0.77 s  predicted time for all data 106303.2 s
+Total 3900 of 277804, last 50 in 0.69 s  predicted time for all data 95382.4 s
+Total 3950 of 277804, last 50 in 0.78 s  predicted time for all data 108321.9 s
+Total 4000 of 277804, last 50 in 0.70 s  predicted time for all data 97450.9 s
+Total 4050 of 277804, last 50 in 0.73 s  predicted time for all data 100880.3 s
+Total 4100 of 277804, last 50 in 0.73 s  predicted time for all data 101096.5 s
+Total 4150 of 277804, last 50 in 0.71 s  predicted time for all data 98537.7 s
+Total 4200 of 277804, last 50 in 0.75 s  predicted time for all data 104188.7 s
+Total 4250 of 277804, last 50 in 0.71 s  predicted time for all data 98449.8 s
+Total 4300 of 277804, last 50 in 0.77 s  predicted time for all data 106840.1 s
+Total 4350 of 277804, last 50 in 0.74 s  predicted time for all data 102360.3 s
+Total 4400 of 277804, last 50 in 0.66 s  predicted time for all data 92144.2 s
+Total 4450 of 277804, last 50 in 0.71 s  predicted time for all data 98470.2 s
+Total 4500 of 277804, last 50 in 0.68 s  predicted time for all data 93787.6 s
+Total 4550 of 277804, last 50 in 0.69 s  predicted time for all data 96285.2 s
+Total 4600 of 277804, last 50 in 0.68 s  predicted time for all data 94180.2 s
+Total 4650 of 277804, last 50 in 0.74 s  predicted time for all data 102894.4 s
+Total 4700 of 277804, last 50 in 0.73 s  predicted time for all data 100761.4 s
+Total 4750 of 277804, last 50 in 0.73 s  predicted time for all data 101899.1 s
+Total 4800 of 277804, last 50 in 0.67 s  predicted time for all data 93617.1 s
+Total 4850 of 277804, last 50 in 0.70 s  predicted time for all data 96646.1 s
+Total 4900 of 277804, last 50 in 0.92 s  predicted time for all data 127373.3 s
+Total 4950 of 277804, last 50 in 0.72 s  predicted time for all data 99823.8 s
+Total 5000 of 277804, last 50 in 0.75 s  predicted time for all data 104084.5 s
+Total 5050 of 277804, last 50 in 0.74 s  predicted time for all data 103339.1 s
+Total 5100 of 277804, last 50 in 0.81 s  predicted time for all data 112990.7 s
+Total 5150 of 277804, last 50 in 0.79 s  predicted time for all data 109932.8 s
+Total 5200 of 277804, last 50 in 0.66 s  predicted time for all data 91241.8 s
+Total 5250 of 277804, last 50 in 0.76 s  predicted time for all data 105472.2 s
+Total 5300 of 277804, last 50 in 0.83 s  predicted time for all data 114732.1 s
+Total 5350 of 277804, last 50 in 0.73 s  predicted time for all data 101869.9 s
+Total 5400 of 277804, last 50 in 0.75 s  predicted time for all data 104253.8 s
+Total 5450 of 277804, last 50 in 0.75 s  predicted time for all data 104606.0 s
+Total 5500 of 277804, last 50 in 0.73 s  predicted time for all data 100770.1 s
+Total 5550 of 277804, last 50 in 2.42 s  predicted time for all data 335927.5 s
+Total 5600 of 277804, last 50 in 2.67 s  predicted time for all data 370210.2 s
+Total 5650 of 277804, last 50 in 2.92 s  predicted time for all data 405157.7 s
+Total 5700 of 277804, last 50 in 2.90 s  predicted time for all data 402515.5 s
+Total 5750 of 277804, last 50 in 2.82 s  predicted time for all data 391993.0 s
+Total 5800 of 277804, last 50 in 2.85 s  predicted time for all data 395259.3 s
+Total 5850 of 277804, last 50 in 3.11 s  predicted time for all data 432625.4 s
+Total 5900 of 277804, last 50 in 3.01 s  predicted time for all data 418037.9 s
+Total 5950 of 277804, last 50 in 3.17 s  predicted time for all data 439686.2 s
+Total 6000 of 277804, last 50 in 2.46 s  predicted time for all data 341098.2 s
+Total 6050 of 277804, last 50 in 2.96 s  predicted time for all data 410656.2 s
+Total 6100 of 277804, last 50 in 2.82 s  predicted time for all data 392063.7 s
+Total 6150 of 277804, last 50 in 2.88 s  predicted time for all data 399618.5 s
+Total 6200 of 277804, last 50 in 3.05 s  predicted time for all data 423722.1 s
+Total 6250 of 277804, last 50 in 3.20 s  predicted time for all data 444805.4 s
+Total 6300 of 277804, last 50 in 3.17 s  predicted time for all data 440353.3 s
+Total 6350 of 277804, last 50 in 3.18 s  predicted time for all data 441787.2 s
+Total 6400 of 277804, last 50 in 2.62 s  predicted time for all data 363868.7 s
+Total 6450 of 277804, last 50 in 3.12 s  predicted time for all data 434004.7 s
+Total 6500 of 277804, last 50 in 2.56 s  predicted time for all data 355326.8 s
+Total 6550 of 277804, last 50 in 2.77 s  predicted time for all data 384485.7 s
+Total 6600 of 277804, last 50 in 2.92 s  predicted time for all data 406226.6 s
+Total 6650 of 277804, last 50 in 2.98 s  predicted time for all data 413439.1 s
+Total 6700 of 277804, last 50 in 2.98 s  predicted time for all data 414412.4 s
+Total 6750 of 277804, last 50 in 2.88 s  predicted time for all data 400519.1 s
+Total 6800 of 277804, last 50 in 2.54 s  predicted time for all data 352961.8 s
+Total 6850 of 277804, last 50 in 2.76 s  predicted time for all data 382765.8 s
+Total 6900 of 277804, last 50 in 2.95 s  predicted time for all data 410214.1 s
+Total 6950 of 277804, last 50 in 3.06 s  predicted time for all data 425022.1 s
+Total 7000 of 277804, last 50 in 3.13 s  predicted time for all data 435230.8 s
+Total 7050 of 277804, last 50 in 3.05 s  predicted time for all data 423196.3 s
+Total 7100 of 277804, last 50 in 3.07 s  predicted time for all data 425861.9 s
+Total 7150 of 277804, last 50 in 3.18 s  predicted time for all data 442299.0 s
+Total 7200 of 277804, last 50 in 2.97 s  predicted time for all data 412770.2 s
+Total 7250 of 277804, last 50 in 2.84 s  predicted time for all data 394584.4 s
+Total 7300 of 277804, last 50 in 2.85 s  predicted time for all data 395438.4 s
+Total 7350 of 277804, last 50 in 1.47 s  predicted time for all data 203916.2 s
+Total 7400 of 277804, last 50 in 0.81 s  predicted time for all data 112243.2 s
+Total 7450 of 277804, last 50 in 0.72 s  predicted time for all data 99744.6 s
+Total 7500 of 277804, last 50 in 0.68 s  predicted time for all data 94166.5 s
+Total 7550 of 277804, last 50 in 0.73 s  predicted time for all data 101943.3 s
+Total 7600 of 277804, last 50 in 0.64 s  predicted time for all data 89381.6 s
+Total 7650 of 277804, last 50 in 0.70 s  predicted time for all data 97141.8 s
+Total 7700 of 277804, last 50 in 0.68 s  predicted time for all data 93773.0 s
+Total 7750 of 277804, last 50 in 0.66 s  predicted time for all data 91224.8 s
+Total 7800 of 277804, last 50 in 0.75 s  predicted time for all data 103969.4 s
+Total 7850 of 277804, last 50 in 1.43 s  predicted time for all data 198979.1 s
+Total 7900 of 277804, last 50 in 0.72 s  predicted time for all data 100330.4 s
+Total 7950 of 277804, last 50 in 0.72 s  predicted time for all data 100082.4 s
+Total 8000 of 277804, last 50 in 11358.87 s  predicted time for all data 1577769377.0 s
+Total 8050 of 277804, last 50 in 1.54 s  predicted time for all data 213244.3 s
+Total 8100 of 277804, last 50 in 3.50 s  predicted time for all data 486776.6 s
+Total 8150 of 277804, last 50 in 1.70 s  predicted time for all data 235643.4 s
+Total 8200 of 277804, last 50 in 1.03 s  predicted time for all data 143387.9 s
+Total 8250 of 277804, last 50 in 1.04 s  predicted time for all data 144067.9 s
+Total 8300 of 277804, last 50 in 0.76 s  predicted time for all data 106256.7 s
+Total 8350 of 277804, last 50 in 1.55 s  predicted time for all data 215040.4 s
+Total 8400 of 277804, last 50 in 0.80 s  predicted time for all data 110983.8 s
+Total 8450 of 277804, last 50 in 0.96 s  predicted time for all data 133721.8 s
+Total 8500 of 277804, last 50 in 1.00 s  predicted time for all data 139041.0 s
+Total 8550 of 277804, last 50 in 0.86 s  predicted time for all data 119490.7 s
+Total 8600 of 277804, last 50 in 0.83 s  predicted time for all data 115154.3 s
+Total 8650 of 277804, last 50 in 1.11 s  predicted time for all data 154494.5 s
+Total 8700 of 277804, last 50 in 1.77 s  predicted time for all data 246113.9 s
+Total 8750 of 277804, last 50 in 1.06 s  predicted time for all data 146553.7 s
+Total 8800 of 277804, last 50 in 0.78 s  predicted time for all data 107899.7 s
+Total 8850 of 277804, last 50 in 1.16 s  predicted time for all data 161194.0 s
+Total 8900 of 277804, last 50 in 0.77 s  predicted time for all data 106523.7 s
+Total 8950 of 277804, last 50 in 0.95 s  predicted time for all data 131562.9 s
+Total 9000 of 277804, last 50 in 0.82 s  predicted time for all data 113662.1 s
+Total 9050 of 277804, last 50 in 0.79 s  predicted time for all data 109096.3 s
+Total 9100 of 277804, last 50 in 0.85 s  predicted time for all data 117898.0 s
+Total 9150 of 277804, last 50 in 0.77 s  predicted time for all data 107204.5 s
+Total 9200 of 277804, last 50 in 1.21 s  predicted time for all data 167639.5 s
+Total 9250 of 277804, last 50 in 0.84 s  predicted time for all data 117306.4 s
+Total 9300 of 277804, last 50 in 0.96 s  predicted time for all data 133965.7 s
+Total 9350 of 277804, last 50 in 0.83 s  predicted time for all data 114848.8 s
+Total 9400 of 277804, last 50 in 1.17 s  predicted time for all data 162667.9 s
+Total 9450 of 277804, last 50 in 0.78 s  predicted time for all data 108976.2 s
+Total 9500 of 277804, last 50 in 0.89 s  predicted time for all data 123653.3 s
+Total 9550 of 277804, last 50 in 0.85 s  predicted time for all data 118386.5 s
+Total 9600 of 277804, last 50 in 0.70 s  predicted time for all data 97449.0 s
+Total 9650 of 277804, last 50 in 0.77 s  predicted time for all data 106374.9 s
+Total 9700 of 277804, last 50 in 0.73 s  predicted time for all data 101478.8 s
+Total 9750 of 277804, last 50 in 0.75 s  predicted time for all data 103915.5 s
+Total 9800 of 277804, last 50 in 0.85 s  predicted time for all data 117598.3 s
+Total 9850 of 277804, last 50 in 0.80 s  predicted time for all data 111247.2 s
+Total 9900 of 277804, last 50 in 0.92 s  predicted time for all data 128244.2 s
+Total 9950 of 277804, last 50 in 1.33 s  predicted time for all data 185142.5 s
+Total 10000 of 277804, last 50 in 1.00 s  predicted time for all data 139411.0 s
+Total 10050 of 277804, last 50 in 0.88 s  predicted time for all data 122816.0 s
+Total 10100 of 277804, last 50 in 0.82 s  predicted time for all data 113534.7 s
+Total 10150 of 277804, last 50 in 0.79 s  predicted time for all data 110072.6 s
+Total 10200 of 277804, last 50 in 0.79 s  predicted time for all data 109069.0 s
+Total 10250 of 277804, last 50 in 0.79 s  predicted time for all data 109217.6 s
+Total 10300 of 277804, last 50 in 0.82 s  predicted time for all data 113321.6 s
+Total 10350 of 277804, last 50 in 0.75 s  predicted time for all data 104245.5 s
+Total 10400 of 277804, last 50 in 0.80 s  predicted time for all data 111029.5 s
+Total 10450 of 277804, last 50 in 0.75 s  predicted time for all data 104540.0 s
+Total 10500 of 277804, last 50 in 0.74 s  predicted time for all data 103148.3 s
+Total 10550 of 277804, last 50 in 0.80 s  predicted time for all data 110512.0 s
+Total 10600 of 277804, last 50 in 0.87 s  predicted time for all data 120355.2 s
+Total 10650 of 277804, last 50 in 0.80 s  predicted time for all data 111007.0 s
+Total 10700 of 277804, last 50 in 0.82 s  predicted time for all data 113697.5 s
+Total 10750 of 277804, last 50 in 0.80 s  predicted time for all data 110918.6 s
+Total 10800 of 277804, last 50 in 0.73 s  predicted time for all data 100900.6 s
+Total 10850 of 277804, last 50 in 0.75 s  predicted time for all data 104035.3 s
+Total 10900 of 277804, last 50 in 0.79 s  predicted time for all data 110073.9 s
+Total 10950 of 277804, last 50 in 0.84 s  predicted time for all data 116706.5 s
+Total 11000 of 277804, last 50 in 1.03 s  predicted time for all data 143253.0 s
+Total 11050 of 277804, last 50 in 0.90 s  predicted time for all data 124550.6 s
+Total 11100 of 277804, last 50 in 0.88 s  predicted time for all data 121960.9 s
+Total 11150 of 277804, last 50 in 0.77 s  predicted time for all data 106820.3 s
+Total 11200 of 277804, last 50 in 1.12 s  predicted time for all data 156096.5 s
+Total 11250 of 277804, last 50 in 1.12 s  predicted time for all data 155448.1 s
+Total 11300 of 277804, last 50 in 1.17 s  predicted time for all data 163124.4 s
+Total 11350 of 277804, last 50 in 1.33 s  predicted time for all data 184250.0 s
+Total 11400 of 277804, last 50 in 0.87 s  predicted time for all data 120487.7 s
+Total 11450 of 277804, last 50 in 0.80 s  predicted time for all data 111624.0 s
+Total 11500 of 277804, last 50 in 0.91 s  predicted time for all data 125819.1 s
+Total 11550 of 277804, last 50 in 0.84 s  predicted time for all data 116431.4 s
+Total 11600 of 277804, last 50 in 0.75 s  predicted time for all data 104720.2 s
+Total 11650 of 277804, last 50 in 0.76 s  predicted time for all data 105895.5 s
+Total 11700 of 277804, last 50 in 0.80 s  predicted time for all data 111677.1 s
+Total 11750 of 277804, last 50 in 0.82 s  predicted time for all data 113769.9 s
+Total 11800 of 277804, last 50 in 0.91 s  predicted time for all data 125983.6 s
+Total 11850 of 277804, last 50 in 1.02 s  predicted time for all data 141566.7 s
+Total 11900 of 277804, last 50 in 0.78 s  predicted time for all data 108879.6 s
+Total 11950 of 277804, last 50 in 0.76 s  predicted time for all data 105480.9 s
+Total 12000 of 277804, last 50 in 0.78 s  predicted time for all data 108966.5 s
+Total 12050 of 277804, last 50 in 0.79 s  predicted time for all data 109979.4 s
+Total 12100 of 277804, last 50 in 0.75 s  predicted time for all data 104311.0 s
+Total 12150 of 277804, last 50 in 0.87 s  predicted time for all data 121058.3 s
+Total 12200 of 277804, last 50 in 0.78 s  predicted time for all data 107880.8 s
+Total 12250 of 277804, last 50 in 0.72 s  predicted time for all data 100685.3 s
+Total 12300 of 277804, last 50 in 0.80 s  predicted time for all data 110585.9 s
+Total 12350 of 277804, last 50 in 0.74 s  predicted time for all data 102662.1 s
+Total 12400 of 277804, last 50 in 0.77 s  predicted time for all data 107570.9 s
+Total 12450 of 277804, last 50 in 0.77 s  predicted time for all data 106691.4 s
+Total 12500 of 277804, last 50 in 0.82 s  predicted time for all data 113225.9 s
+Total 12550 of 277804, last 50 in 0.77 s  predicted time for all data 107598.4 s
+Total 12600 of 277804, last 50 in 0.76 s  predicted time for all data 105889.5 s
+Total 12650 of 277804, last 50 in 0.91 s  predicted time for all data 126603.2 s
+Total 12700 of 277804, last 50 in 0.89 s  predicted time for all data 123334.3 s
+Total 12750 of 277804, last 50 in 0.83 s  predicted time for all data 114865.8 s
+Total 12800 of 277804, last 50 in 0.82 s  predicted time for all data 114423.7 s
+Total 12850 of 277804, last 50 in 0.96 s  predicted time for all data 133180.7 s
+Total 12900 of 277804, last 50 in 0.81 s  predicted time for all data 111898.5 s
+Total 12950 of 277804, last 50 in 1.93 s  predicted time for all data 268145.6 s
+Total 13000 of 277804, last 50 in 3.06 s  predicted time for all data 425308.5 s
+Total 13050 of 277804, last 50 in 2.31 s  predicted time for all data 320697.1 s
+Total 13100 of 277804, last 50 in 3.10 s  predicted time for all data 431012.6 s
+Total 13150 of 277804, last 50 in 2.76 s  predicted time for all data 383493.7 s
+Total 13200 of 277804, last 50 in 2.92 s  predicted time for all data 406188.4 s
+Total 13250 of 277804, last 50 in 3.02 s  predicted time for all data 418879.2 s
+Total 13300 of 277804, last 50 in 3.04 s  predicted time for all data 422804.6 s
+Total 13350 of 277804, last 50 in 3.15 s  predicted time for all data 436948.3 s
+Total 13400 of 277804, last 50 in 3.14 s  predicted time for all data 436425.8 s
+Total 13450 of 277804, last 50 in 2.56 s  predicted time for all data 355148.1 s
+Total 13500 of 277804, last 50 in 3.10 s  predicted time for all data 430956.9 s
+Total 13550 of 277804, last 50 in 2.98 s  predicted time for all data 413591.1 s
+Total 13600 of 277804, last 50 in 2.60 s  predicted time for all data 360544.6 s
+Total 13650 of 277804, last 50 in 2.31 s  predicted time for all data 321095.7 s
+Total 13700 of 277804, last 50 in 2.94 s  predicted time for all data 407830.3 s
+Total 13750 of 277804, last 50 in 2.93 s  predicted time for all data 406847.9 s
+Total 13800 of 277804, last 50 in 2.90 s  predicted time for all data 403218.3 s
+Total 13850 of 277804, last 50 in 2.86 s  predicted time for all data 397941.5 s
+Total 13900 of 277804, last 50 in 2.89 s  predicted time for all data 401031.4 s
+Total 13950 of 277804, last 50 in 2.70 s  predicted time for all data 374502.0 s
+Total 14000 of 277804, last 50 in 2.83 s  predicted time for all data 393268.7 s
+Total 14050 of 277804, last 50 in 3.01 s  predicted time for all data 417947.0 s
+Total 14100 of 277804, last 50 in 2.90 s  predicted time for all data 403265.3 s
+Total 14150 of 277804, last 50 in 2.91 s  predicted time for all data 403728.3 s
+Total 14200 of 277804, last 50 in 2.85 s  predicted time for all data 396051.7 s
+Total 14250 of 277804, last 50 in 2.87 s  predicted time for all data 399024.2 s
+Total 14300 of 277804, last 50 in 3.06 s  predicted time for all data 425216.2 s
+Total 14350 of 277804, last 50 in 2.74 s  predicted time for all data 380198.5 s
+Total 14400 of 277804, last 50 in 2.85 s  predicted time for all data 395858.5 s
+Total 14450 of 277804, last 50 in 2.84 s  predicted time for all data 394407.9 s
+Total 14500 of 277804, last 50 in 2.68 s  predicted time for all data 372862.7 s
+Total 14550 of 277804, last 50 in 2.01 s  predicted time for all data 278677.4 s
+Total 14600 of 277804, last 50 in 2.33 s  predicted time for all data 324124.3 s
+Total 14650 of 277804, last 50 in 2.94 s  predicted time for all data 409010.7 s
+Total 14700 of 277804, last 50 in 3.11 s  predicted time for all data 431667.5 s
+Total 14750 of 277804, last 50 in 2.61 s  predicted time for all data 362524.3 s
+Total 14800 of 277804, last 50 in 2.73 s  predicted time for all data 379052.0 s
+Total 14850 of 277804, last 50 in 2.72 s  predicted time for all data 377777.8 s
+Total 14900 of 277804, last 50 in 2.88 s  predicted time for all data 399903.7 s
+Total 14950 of 277804, last 50 in 2.90 s  predicted time for all data 403371.3 s
+Total 15000 of 277804, last 50 in 2.93 s  predicted time for all data 407030.7 s
+Total 15050 of 277804, last 50 in 2.96 s  predicted time for all data 410861.0 s
+Total 15100 of 277804, last 50 in 2.90 s  predicted time for all data 402234.9 s
+Total 15150 of 277804, last 50 in 2.83 s  predicted time for all data 393394.5 s
+Total 15200 of 277804, last 50 in 2.79 s  predicted time for all data 387235.2 s
+Total 15250 of 277804, last 50 in 2.90 s  predicted time for all data 402853.2 s
+Total 15300 of 277804, last 50 in 2.90 s  predicted time for all data 402910.7 s
+Total 15350 of 277804, last 50 in 3.06 s  predicted time for all data 424910.1 s
+Total 15400 of 277804, last 50 in 2.98 s  predicted time for all data 413863.0 s
+Total 15450 of 277804, last 50 in 2.87 s  predicted time for all data 398483.7 s
+Total 15500 of 277804, last 50 in 2.28 s  predicted time for all data 316681.3 s
+Total 15550 of 277804, last 50 in 0.78 s  predicted time for all data 108495.3 s
+Total 15600 of 277804, last 50 in 0.73 s  predicted time for all data 100841.4 s
+Total 15650 of 277804, last 50 in 0.75 s  predicted time for all data 103859.1 s
+Total 15700 of 277804, last 50 in 0.70 s  predicted time for all data 96998.8 s
+Total 15750 of 277804, last 50 in 0.76 s  predicted time for all data 105261.2 s
+Total 15800 of 277804, last 50 in 0.68 s  predicted time for all data 94517.9 s
+Total 15850 of 277804, last 50 in 0.83 s  predicted time for all data 115171.6 s
+Total 15900 of 277804, last 50 in 0.79 s  predicted time for all data 109513.0 s
+Total 15950 of 277804, last 50 in 0.69 s  predicted time for all data 95323.7 s
+Total 16000 of 277804, last 50 in 0.72 s  predicted time for all data 100439.5 s
+Total 16050 of 277804, last 50 in 0.69 s  predicted time for all data 96114.2 s
+Total 16100 of 277804, last 50 in 0.72 s  predicted time for all data 99886.2 s
+Total 16150 of 277804, last 50 in 0.77 s  predicted time for all data 107471.4 s
+Total 16200 of 277804, last 50 in 0.71 s  predicted time for all data 98390.7 s
+Total 16250 of 277804, last 50 in 0.75 s  predicted time for all data 104757.2 s
+Total 16300 of 277804, last 50 in 0.73 s  predicted time for all data 101435.3 s
+Total 16350 of 277804, last 50 in 0.71 s  predicted time for all data 98035.7 s
+Total 16400 of 277804, last 50 in 0.69 s  predicted time for all data 96159.4 s
+Total 16450 of 277804, last 50 in 0.69 s  predicted time for all data 95720.7 s
+Total 16500 of 277804, last 50 in 0.74 s  predicted time for all data 102954.7 s
+Total 16550 of 277804, last 50 in 0.76 s  predicted time for all data 105048.8 s
+Total 16600 of 277804, last 50 in 0.77 s  predicted time for all data 107587.3 s
+Total 16650 of 277804, last 50 in 0.74 s  predicted time for all data 102434.5 s
+Total 16700 of 277804, last 50 in 0.81 s  predicted time for all data 112684.5 s
+Total 16750 of 277804, last 50 in 1.56 s  predicted time for all data 216541.5 s
+Total 16800 of 277804, last 50 in 1.74 s  predicted time for all data 241165.0 s
+Total 16850 of 277804, last 50 in 0.73 s  predicted time for all data 101452.4 s
+Total 16900 of 277804, last 50 in 0.79 s  predicted time for all data 110053.1 s
+Total 16950 of 277804, last 50 in 0.80 s  predicted time for all data 110988.1 s
+Total 17000 of 277804, last 50 in 1.42 s  predicted time for all data 197159.0 s
+Total 17050 of 277804, last 50 in 3.12 s  predicted time for all data 432894.7 s
+Total 17100 of 277804, last 50 in 2.91 s  predicted time for all data 403551.6 s
+Total 17150 of 277804, last 50 in 2.81 s  predicted time for all data 389689.2 s
+Total 17200 of 277804, last 50 in 2.87 s  predicted time for all data 399175.7 s
+Total 17250 of 277804, last 50 in 3.07 s  predicted time for all data 426672.0 s
+Total 17300 of 277804, last 50 in 3.12 s  predicted time for all data 433940.6 s
+Total 17350 of 277804, last 50 in 2.65 s  predicted time for all data 368228.7 s
+Total 17400 of 277804, last 50 in 2.90 s  predicted time for all data 403173.9 s
+Total 17450 of 277804, last 50 in 3.08 s  predicted time for all data 428106.2 s
+Total 17500 of 277804, last 50 in 2.84 s  predicted time for all data 394047.5 s
+Total 17550 of 277804, last 50 in 2.97 s  predicted time for all data 412357.3 s
+Total 17600 of 277804, last 50 in 1.92 s  predicted time for all data 266913.2 s
+Total 17650 of 277804, last 50 in 0.73 s  predicted time for all data 101300.2 s
+Total 17700 of 277804, last 50 in 0.75 s  predicted time for all data 103718.4 s
+{操作在以下过程中被用户终止 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('pdist2', 'D:\matlab\toolbox\stats\stats\pdist2.m', 379)" style="font-weight:bold">pdist2</a> (<a href="matlab: opentoline('D:\matlab\toolbox\stats\stats\pdist2.m',379,0)">第 379 行</a>)
+
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DDC_ver01_1_CAMS', 'E:\作业1\5011ModuleCode-master\3a Sequential\DDC_ver01_1_CAMS.m', 73)" style="font-weight:bold">DDC_ver01_1_CAMS</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\3a Sequential\DDC_ver01_1_CAMS.m',73,0)">第 73 行</a>)
+    GDensity=pdist2(DataIn,Glob_Mean,'euclidean').^2 + Glob_Scalar - sum(Glob_Mean.^2); % calculate global densities
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('EnsembleValue', 'E:\作业1\5011ModuleCode-master\6a Testing Text\EnsembleValue.m', 8)" style="font-weight:bold">EnsembleValue</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\EnsembleValue.m',8,0)">第 8 行</a>)
+[Clusters, Results] = DDC_ver01_1_CAMS(Data4Cluster, [RadLat, RadLon, RadO3], 0, 0);
+
+位置 <a href="matlab:matlab.internal.language.introspective.errorDocCallback('Auto_test', 'E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m', 73)" style="font-weight:bold">Auto_test</a> (<a href="matlab: opentoline('E:\作业1\5011ModuleCode-master\6a Testing Text\Auto_test.m',73,0)">第 73 行</a>)
+            [EnsembleVector(idx, NumHour)] = EnsembleValue(Data2Process(idx,:,:,:), LatLon, RadLat, RadLon, RadO3);
+} 
+diary off
