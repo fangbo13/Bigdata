@@ -42,7 +42,7 @@ for NumHour = 1:25 % loop through each hour
     %% Sequential analysis    
     t1 = toc;
     t2 = t1;
-    for idx = 1: size(Data2Process,1) % step through each data location to process the data
+    for idx = 1: 5000 % step through each data location to process the data
         
         % The analysis of the data creates an 'ensemble value' for each
         % location. This method is defined by
@@ -55,7 +55,7 @@ for NumHour = 1:25 % loop through each hour
         if idx/50 == ceil( idx/50)
             tt = toc-t2;
             fprintf('Total %i of %i, last 50 in %.2f s  predicted time for all data %.1f s\n',...
-                idx, size(Data2Process,1), tt, size(Data2Process,1)/50*25*tt)
+                idx, size(Data2 Process,1), tt, size(Data2Process,1)/50*25*tt)
             t2 = toc;
         end
     end
