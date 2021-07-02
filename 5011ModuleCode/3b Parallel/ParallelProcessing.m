@@ -63,7 +63,7 @@ for idxTime = 1:NumHours
     
 %% Parallel Analysis
     %% 7: Create the parallel pool and attache files for use
-    PoolSize = 4 ; % define the number of processors to use in parallel
+    PoolSize = 8  ; % define the number of processors to use in parallel
     if isempty(gcp('nocreate'))
         parpool('local',PoolSize);
     end
@@ -78,15 +78,15 @@ for idxTime = 1:NumHours
 %     % process completes an analysis. The update function is defined at the
 %     % end of this script. Each time a parallel process competes it runs the
 %     % function to update the waitbar.
-    DataQ = parallel.pool.DataQueue; % Create a variable in the parallel pool
+% DataQ = parallel.pool.DataQueue; % Create a variable in the parallel pool
 %     
 %     % Create a waitbar and handle top it:
-    hWaitBar = waitbar(0, sprintf('Time period %i, Please wait ...', idxTime));
+%    %hWaitBar = waitbar(0, sprintf('Time period %i, Please wait ...', idxTime));
 %     % Define the function to call when new data is received in the data queue
 %     % 'DataQ'. See end of script for the function definition.
-    afterEach(DataQ, @nUpdateWaitbar);
-    N = size(Data2Process,1); % the total number of data to process
-    p = 20; % offset so the waitbar shows some colour quickly.
+%    %afterEach(DataQ, @nUpdateWaitbar);
+%    %N = size(Data2Process,1); % the total number of data to process
+%    %p = 20; % offset so the waitbar shows some colour quickly.
     
     %% 9: The actual parallel processing!
     % Ensemble value is a function defined by the customer to calculate the
@@ -95,12 +95,12 @@ for idxTime = 1:NumHours
     % this being a 'big data' project due to the processing time (not the
     % pure volume of raw data alone).
     T4 = toc;
-    parfor idx = 1: 100 % size(Data2Process,1)
+    parfor idx = 1: 5000 % size(Data2Process,1)
         [EnsembleVectorPar(idx, idxTime)] = EnsembleValue(Data2Process(idx,:,:,:), LatLon, RadLat, RadLon, RadO3);
-        send(DataQ, idx);
+  %      send(DataQ, idx);
     end
     
-    close(hWaitBar); % close the wait bar
+ %   close(hWaitBar); % close the wait bar
     
     T3(idxTime) = toc - T4; % record the parallel processing time for this hour of data
     fprintf('Parallel processing time for hour %i : %.1f s\n', idxTime, T3(idxTime))
